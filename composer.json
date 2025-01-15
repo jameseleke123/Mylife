@@ -1,0 +1,26 @@
+{
+    "name": "your/project-name",
+    "description": "A brief descriptionof your project",
+    "version": "1.0.0",
+    "authors": [
+    {
+    "name": "jamesleke123",
+    "email": "elekej2@gmail.com"
+    }
+ ],
+    "require": {
+    "php": "^8.3.16",
+    "vendor/package": "^1.2"
+},
+    "autoload":{
+     "psr-4": {
+        "App\\": "src/"
+        }
+    },
+    "scripts":{
+    "test": "phpunit"
+    },
+    "config": {
+    "optimize-autoloader": true
+    }
+}
